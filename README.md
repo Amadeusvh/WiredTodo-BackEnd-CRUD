@@ -19,5 +19,5 @@ após a instalação poderá ser efetuado o comando:
 
  `yarn dev`
 
-abrindo assim o projeto frontend no seu navegador pelo link
-[http://localhost:3000](http://localhost:3000).
+abrindo assim o projeto backend no seu navegador pelo link
+[http://localhost:3000](http://localhost:3030).
