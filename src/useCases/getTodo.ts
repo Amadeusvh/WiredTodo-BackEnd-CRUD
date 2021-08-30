@@ -24,8 +24,8 @@ const getTodo = async (req: Request, res: Response) => {
     const todo = await getRepository(Todo)
       .createQueryBuilder("todos")
       .where('status', {statusComplete})
-      //oderBy é usado em todas as operações de Query para
-      //houver uma listagem melhor de acordo com o ID
+      //orderBy é usado em todas as operações de Query para
+      //haver uma listagem melhor de acordo com o ID
       .orderBy('id', 'ASC')
       .getMany();
 
